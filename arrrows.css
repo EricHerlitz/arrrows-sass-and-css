@@ -1,0 +1,798 @@
+/* 
+    genereated css for arrrows http://www.arrrows.com/
+    github: https://github.com/EricHerlitz/arrrows-sass-and-css
+    Eric Herlitz 2016, http://www.herlitz.nu
+*/
+
+@font-face {
+    font-family: "ArrrowsRegular";
+    src: url("/Static/Blog/Webfonts/arrrows-regular-webfont.eot");
+    src: url("/Static/Blog/Webfonts/arrrows-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/Static/Blog/Webfonts/arrrows-regular-webfont.woff") format("woff"), url("/Static/Blog/Webfonts/arrrows-regular-webfont.ttf") format("truetype"), url("/Static/Blog/Webfonts/arrrows-regular-webfont.svg#ArrrowsRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ArrrowsBoldRegular";
+    src: url("/Static/Blog/Webfonts/arrrows-bold-webfont.eot");
+    src: url("/Static/Blog/Webfonts/arrrows-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/Static/Blog/Webfonts/arrrows-bold-webfont.woff") format("woff"), url("/Static/Blog/Webfonts/arrrows-bold-webfont.ttf") format("truetype"), url("/Static/Blog/Webfonts/arrrows-bold-webfont.svg#ArrrowsBoldRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="arrrow"]:not([class*="bold"]):before {
+    font-family: "ArrrowsRegular" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="arrrow-bold"]:before {
+    font-family: "ArrrowsBoldRegular" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.arrrow.thin-feathered-arrow-left:before {
+    content: "\2b";
+}
+
+.arrrow.thin-feathered-arrow-right:before {
+    content: "\3d";
+}
+
+.arrrow.medium-feathered-arrow-left:before {
+    content: "\5f";
+}
+
+.arrrow.medium-feathered-arrow-right:before {
+    content: "\2d";
+}
+
+.arrrow.medium-pointed-long-arrow-left:before {
+    content: "\29";
+}
+
+.arrrow.medium-pointed-long-arrow-right:before {
+    content: "\30";
+}
+
+.arrrow.curved-block-arrow-left:before {
+    content: "\21";
+}
+
+.arrrow.curved-block-arrow-right:before {
+    content: "\31";
+}
+
+.arrrow.rotated-arrow-left:before {
+    content: "\40";
+}
+
+.arrrow.rotated-arrow-right:before {
+    content: "\32";
+}
+
+.arrrow.rotated-double-arrow-left:before {
+    content: "\23";
+}
+
+.arrrow.rotated-double-arrow-right:before {
+    content: "\33";
+}
+
+.arrrow.diagonal-arrows-in:before {
+    content: "\24";
+}
+
+.arrrow.diagonal-arrows-out:before {
+    content: "\34";
+}
+
+.arrrow.contract-arrows:before {
+    content: "\25";
+}
+
+.arrrow.expand-arrows:before {
+    content: "\35";
+}
+
+.arrrow.center-arrows:before {
+    content: "\5e";
+}
+
+.arrrow.move-arrows:before {
+    content: "\36";
+}
+
+.arrrow.fish-arrow-left:before {
+    content: "\26";
+}
+
+.arrrow.fish-arrow-right:before {
+    content: "\37";
+}
+
+.arrrow.rounded-blunt-arrow-left:before {
+    content: "\2a";
+}
+
+.arrrow.rounded-blunt-arrow-right:before {
+    content: "\38";
+}
+
+.arrrow.thin-pointed-long-arrow-left:before {
+    content: "\28";
+}
+
+.arrrow.thin-pointed-long-arrow-right:before {
+    content: "\39";
+}
+
+.arrrow.return-arrow:before {
+    content: "\3a";
+}
+
+.arrrow.switch-arrows:before {
+    content: "\2c";
+}
+
+.arrrow.switch-arrows-right:before {
+    content: "\3b";
+}
+
+.arrrow.squared-sans-arrow-up:before {
+    content: "\22";
+}
+
+.arrrow.squared-sans-arrow-down:before {
+    content: "\27";
+}
+
+.arrrow.up-and-down-arrow:before {
+    content: "\3c";
+}
+
+.arrrow.control-stop-arrow-left:before {
+    content: "\3e";
+}
+
+.arrrow.control-stop-arrow-right:before {
+    content: "\2e";
+}
+
+.arrrow.skip-arrow-left:before {
+    content: "\3f";
+}
+
+.arrrow.skip-arrow-right:before {
+    content: "\2f";
+}
+
+.arrrow.medium-block-arrow-left:before {
+    content: "\41";
+}
+
+.arrrow.medium-block-arrow-up:before {
+    content: "\42";
+}
+
+.arrrow.medium-block-stop-arrow-up:before {
+    content: "\43";
+}
+
+.arrrow.thick-block-arrow-left:before {
+    content: "\44";
+}
+
+.arrrow.thin-block-arrow-left:before {
+    content: "\45";
+}
+
+.arrrow.medium-pointed-arrow-left:before {
+    content: "\46";
+}
+
+.arrrow.medium-pointed-arrow-up:before {
+    content: "\47";
+}
+
+.arrrow.thin-pointed-arrow-left:before {
+    content: "\48";
+}
+
+.arrrow.rounded-medium-pointed-arrow-left:before {
+    content: "\49";
+}
+
+.arrrow.rounded-medium-block-arrow-left:before {
+    content: "\4a";
+}
+
+.arrrow.medium-pointer-arrow-left:before {
+    content: "\4b";
+}
+
+.arrrow.thick-fish-arrow-left:before {
+    content: "\4c";
+}
+
+.arrrow.long-block-arrow-left:before {
+    content: "\4d";
+}
+
+.arrrow.medium-gt-arrow-left:before {
+    content: "\4e";
+}
+
+.arrrow.medium-gt-arrow-up:before {
+    content: "\4f";
+}
+
+.arrrow.thick-gt-arrow-alternative-left:before {
+    content: "\50";
+}
+
+.arrrow.medium-gt-arrow-alternative-left:before {
+    content: "\51";
+}
+
+.arrrow.thin-gt-arrow-left:before {
+    content: "\52";
+}
+
+.arrrow.rounded-thick-gt-arrow-left:before {
+    content: "\53";
+}
+
+.arrrow.rounded-medium-gt-arrow-left:before {
+    content: "\54";
+}
+
+.arrrow.rounded-medium-gt-arrow-up:before {
+    content: "\55";
+}
+
+.arrrow.thick-gt-arrow-left:before {
+    content: "\56";
+}
+
+.arrrow.sans-arrow-left:before {
+    content: "\57";
+}
+
+.arrrow.sans-arrow-up:before {
+    content: "\58";
+}
+
+.arrrow.short-sans-arrow-left:before {
+    content: "\59";
+}
+
+.arrrow.short-sans-arrow-up:before {
+    content: "\5a";
+}
+
+.arrrow.curved-pointed-arrow-left:before {
+    content: "\7b";
+}
+
+.arrrow.curved-pointed-arrow-right:before {
+    content: "\5b";
+}
+
+.arrrow.fast-backward-arrow:before {
+    content: "\7d";
+}
+
+.arrrow.fast-forward-arrow:before {
+    content: "\5d";
+}
+
+.arrrow.medium-pointer-arrow-alternative-left:before {
+    content: "\7e";
+}
+
+.arrrow.medium-pointer-arrow-alternative-right:before {
+    content: "\60";
+}
+
+.arrrow.medium-block-arrow-right:before {
+    content: "\61";
+}
+
+.arrrow.medium-block-arrow-down:before {
+    content: "\62";
+}
+
+.arrrow.medium-block-stop-arrow-down:before {
+    content: "\63";
+}
+
+.arrrow.thick-block-arrow-right:before {
+    content: "\64";
+}
+
+.arrrow.thin-block-arrow-right:before {
+    content: "\65";
+}
+
+.arrrow.medium-pointed-arrow-right:before {
+    content: "\66";
+}
+
+.arrrow.medium-pointed-arrow-down:before {
+    content: "\67";
+}
+
+.arrrow.thin-pointed-arrow-right:before {
+    content: "\68";
+}
+
+.arrrow.rounded-medium-pointed-arrow-right:before {
+    content: "\69";
+}
+
+.arrrow.rounded-medium-block-arrow-right:before {
+    content: "\6a";
+}
+
+.arrrow.medium-pointer-arrow-right:before {
+    content: "\6b";
+}
+
+.arrrow.thick-fish-arrow-right:before {
+    content: "\6c";
+}
+
+.arrrow.long-block-arrow-right:before {
+    content: "\6d";
+}
+
+.arrrow.medium-gt-arrow-right:before {
+    content: "\6e";
+}
+
+.arrrow.medium-gt-arrow-down:before {
+    content: "\6f";
+}
+
+.arrrow.thick-gt-arrow-alternative-right:before {
+    content: "\70";
+}
+
+.arrrow.medium-gt-arrow-alternative-right:before {
+    content: "\71";
+}
+
+.arrrow.thin-gt-arrow-right:before {
+    content: "\72";
+}
+
+.arrrow.rounded-thick-gt-arrow-right:before {
+    content: "\73";
+}
+
+.arrrow.rounded-medium-gt-arrow-right:before {
+    content: "\74";
+}
+
+.arrrow.rounded-medium-gt-arrow-down:before {
+    content: "\75";
+}
+
+.arrrow.thick-gt-arrow-right:before {
+    content: "\76";
+}
+
+.arrrow.sans-arrow-right:before {
+    content: "\77";
+}
+
+.arrrow.sans-arrow-down:before {
+    content: "\78";
+}
+
+.arrrow.short-sans-arrow-right:before {
+    content: "\79";
+}
+
+.arrrow.short-sans-arrow-down:before {
+    content: "\7a";
+}
+
+.arrrow.pointing-hand-left:before {
+    content: "\7c";
+}
+
+.arrrow.pointing-hand-right:before {
+    content: "\5c";
+}
+
+.arrrow-bold.thin-feathered-arrow-left:before {
+    content: "\2b";
+}
+
+.arrrow-bold.thin-feathered-arrow-right:before {
+    content: "\3d";
+}
+
+.arrrow-bold.medium-feathered-arrow-left:before {
+    content: "\5f";
+}
+
+.arrrow-bold.medium-feathered-arrow-right:before {
+    content: "\2d";
+}
+
+.arrrow-bold.medium-pointed-long-arrow-left:before {
+    content: "\29";
+}
+
+.arrrow-bold.medium-pointed-long-arrow-right:before {
+    content: "\30";
+}
+
+.arrrow-bold.curved-block-arrow-left:before {
+    content: "\21";
+}
+
+.arrrow-bold.curved-block-arrow-right:before {
+    content: "\31";
+}
+
+.arrrow-bold.rotated-arrow-left:before {
+    content: "\40";
+}
+
+.arrrow-bold.rotated-arrow-right:before {
+    content: "\32";
+}
+
+.arrrow-bold.rotated-double-arrow-left:before {
+    content: "\23";
+}
+
+.arrrow-bold.rotated-double-arrow-right:before {
+    content: "\33";
+}
+
+.arrrow-bold.diagonal-arrows-in:before {
+    content: "\24";
+}
+
+.arrrow-bold.diagonal-arrows-out:before {
+    content: "\34";
+}
+
+.arrrow-bold.contract-arrows:before {
+    content: "\25";
+}
+
+.arrrow-bold.expand-arrows:before {
+    content: "\35";
+}
+
+.arrrow-bold.center-arrows:before {
+    content: "\5e";
+}
+
+.arrrow-bold.move-arrows:before {
+    content: "\36";
+}
+
+.arrrow-bold.fish-arrow-left:before {
+    content: "\26";
+}
+
+.arrrow-bold.fish-arrow-right:before {
+    content: "\37";
+}
+
+.arrrow-bold.rounded-blunt-arrow-left:before {
+    content: "\2a";
+}
+
+.arrrow-bold.rounded-blunt-arrow-right:before {
+    content: "\38";
+}
+
+.arrrow-bold.thin-pointed-long-arrow-left:before {
+    content: "\28";
+}
+
+.arrrow-bold.thin-pointed-long-arrow-right:before {
+    content: "\39";
+}
+
+.arrrow-bold.return-arrow:before {
+    content: "\3a";
+}
+
+.arrrow-bold.switch-arrows:before {
+    content: "\2c";
+}
+
+.arrrow-bold.switch-arrows-right:before {
+    content: "\3b";
+}
+
+.arrrow-bold.squared-sans-arrow-up:before {
+    content: "\22";
+}
+
+.arrrow-bold.squared-sans-arrow-down:before {
+    content: "\27";
+}
+
+.arrrow-bold.up-and-down-arrow:before {
+    content: "\3c";
+}
+
+.arrrow-bold.control-stop-arrow-left:before {
+    content: "\3e";
+}
+
+.arrrow-bold.control-stop-arrow-right:before {
+    content: "\2e";
+}
+
+.arrrow-bold.skip-arrow-left:before {
+    content: "\3f";
+}
+
+.arrrow-bold.skip-arrow-right:before {
+    content: "\2f";
+}
+
+.arrrow-bold.medium-block-arrow-left:before {
+    content: "\41";
+}
+
+.arrrow-bold.medium-block-arrow-up:before {
+    content: "\42";
+}
+
+.arrrow-bold.medium-block-stop-arrow-up:before {
+    content: "\43";
+}
+
+.arrrow-bold.thick-block-arrow-left:before {
+    content: "\44";
+}
+
+.arrrow-bold.thin-block-arrow-left:before {
+    content: "\45";
+}
+
+.arrrow-bold.medium-pointed-arrow-left:before {
+    content: "\46";
+}
+
+.arrrow-bold.medium-pointed-arrow-up:before {
+    content: "\47";
+}
+
+.arrrow-bold.thin-pointed-arrow-left:before {
+    content: "\48";
+}
+
+.arrrow-bold.rounded-medium-pointed-arrow-left:before {
+    content: "\49";
+}
+
+.arrrow-bold.rounded-medium-block-arrow-left:before {
+    content: "\4a";
+}
+
+.arrrow-bold.medium-pointer-arrow-left:before {
+    content: "\4b";
+}
+
+.arrrow-bold.thick-fish-arrow-left:before {
+    content: "\4c";
+}
+
+.arrrow-bold.long-block-arrow-left:before {
+    content: "\4d";
+}
+
+.arrrow-bold.medium-gt-arrow-left:before {
+    content: "\4e";
+}
+
+.arrrow-bold.medium-gt-arrow-up:before {
+    content: "\4f";
+}
+
+.arrrow-bold.thick-gt-arrow-alternative-left:before {
+    content: "\50";
+}
+
+.arrrow-bold.medium-gt-arrow-alternative-left:before {
+    content: "\51";
+}
+
+.arrrow-bold.thin-gt-arrow-left:before {
+    content: "\52";
+}
+
+.arrrow-bold.rounded-thick-gt-arrow-left:before {
+    content: "\53";
+}
+
+.arrrow-bold.rounded-medium-gt-arrow-left:before {
+    content: "\54";
+}
+
+.arrrow-bold.rounded-medium-gt-arrow-up:before {
+    content: "\55";
+}
+
+.arrrow-bold.thick-gt-arrow-left:before {
+    content: "\56";
+}
+
+.arrrow-bold.sans-arrow-left:before {
+    content: "\57";
+}
+
+.arrrow-bold.sans-arrow-up:before {
+    content: "\58";
+}
+
+.arrrow-bold.short-sans-arrow-left:before {
+    content: "\59";
+}
+
+.arrrow-bold.short-sans-arrow-up:before {
+    content: "\5a";
+}
+
+.arrrow-bold.curved-pointed-arrow-left:before {
+    content: "\7b";
+}
+
+.arrrow-bold.curved-pointed-arrow-right:before {
+    content: "\5b";
+}
+
+.arrrow-bold.fast-backward-arrow:before {
+    content: "\7d";
+}
+
+.arrrow-bold.fast-forward-arrow:before {
+    content: "\5d";
+}
+
+.arrrow-bold.medium-pointer-arrow-alternative-left:before {
+    content: "\7e";
+}
+
+.arrrow-bold.medium-pointer-arrow-alternative-right:before {
+    content: "\60";
+}
+
+.arrrow-bold.medium-block-arrow-right:before {
+    content: "\61";
+}
+
+.arrrow-bold.medium-block-arrow-down:before {
+    content: "\62";
+}
+
+.arrrow-bold.medium-block-stop-arrow-down:before {
+    content: "\63";
+}
+
+.arrrow-bold.thick-block-arrow-right:before {
+    content: "\64";
+}
+
+.arrrow-bold.thin-block-arrow-right:before {
+    content: "\65";
+}
+
+.arrrow-bold.medium-pointed-arrow-right:before {
+    content: "\66";
+}
+
+.arrrow-bold.medium-pointed-arrow-down:before {
+    content: "\67";
+}
+
+.arrrow-bold.thin-pointed-arrow-right:before {
+    content: "\68";
+}
+
+.arrrow-bold.rounded-medium-pointed-arrow-right:before {
+    content: "\69";
+}
+
+.arrrow-bold.rounded-medium-block-arrow-right:before {
+    content: "\6a";
+}
+
+.arrrow-bold.medium-pointer-arrow-right:before {
+    content: "\6b";
+}
+
+.arrrow-bold.thick-fish-arrow-right:before {
+    content: "\6c";
+}
+
+.arrrow-bold.long-block-arrow-right:before {
+    content: "\6d";
+}
+
+.arrrow-bold.medium-gt-arrow-right:before {
+    content: "\6e";
+}
+
+.arrrow-bold.medium-gt-arrow-down:before {
+    content: "\6f";
+}
+
+.arrrow-bold.thick-gt-arrow-alternative-right:before {
+    content: "\70";
+}
+
+.arrrow-bold.medium-gt-arrow-alternative-right:before {
+    content: "\71";
+}
+
+.arrrow-bold.thin-gt-arrow-right:before {
+    content: "\72";
+}
+
+.arrrow-bold.rounded-thick-gt-arrow-right:before {
+    content: "\73";
+}
+
+.arrrow-bold.rounded-medium-gt-arrow-right:before {
+    content: "\74";
+}
+
+.arrrow-bold.rounded-medium-gt-arrow-down:before {
+    content: "\75";
+}
+
+.arrrow-bold.thick-gt-arrow-right:before {
+    content: "\76";
+}
+
+.arrrow-bold.sans-arrow-right:before {
+    content: "\77";
+}
+
+.arrrow-bold.sans-arrow-down:before {
+    content: "\78";
+}
+
+.arrrow-bold.short-sans-arrow-right:before {
+    content: "\79";
+}
+
+.arrrow-bold.short-sans-arrow-down:before {
+    content: "\7a";
+}
+
+.arrrow-bold.pointing-hand-left:before {
+    content: "\7c";
+}
+
+.arrrow-bold.pointing-hand-right:before {
+    content: "\5c";
+}
