@@ -1,0 +1,47 @@
+@import "_mixins.scss";
+@import "_maps.scss";
+
+$local-font-path: "/Static/Webfonts/";
+
+// generate arrrows font-face
+@include font-face('ArrrowsRegular', $local-font-path, 'arrrows-regular-webfont');
+@include font-face('ArrrowsBoldRegular', $local-font-path, 'arrrows-bold-webfont');
+
+
+// begins with arrrow not containing bold
+[class^="arrrow"]:not([class*="bold"]):before /* begins */ {
+    font-family: "ArrrowsRegular" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// begins with arrrow-bold
+[class^="arrrow-bold"]:before {
+    font-family: "ArrrowsBoldRegular" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// get all arrows
+@include get-arrrows();
+
+// get all bold arrows
+@include get-arrrows(true);
+
+// get the normal thin-gt-arrow-right
+//@include get-arrow(thin-gt-arrow-right);
+
+// get the bold thin-gt-arrow-right
+//@include get-arrow(thin-gt-arrow-right, true);
