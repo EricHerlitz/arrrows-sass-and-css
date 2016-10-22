@@ -1,0 +1,31 @@
+// mixins for arrrows http://www.arrrows.com/
+// github: https://github.com/EricHerlitz/arrrows-sass-and-css
+// Eric Herlitz 2016, http://www.herlitz.nu
+
+@mixin font-face($font-family, $path, $file-name, $font-weight: normal, $font-style: normal) {
+    @font-face {
+        font-family: '#{$font-family}';
+        src: url('#{$path}#{$file-name}.eot');
+        src: url('#{$path}#{$file-name}.eot?#iefix') format('embedded-opentype'), url('#{$path}#{$file-name}.woff') format('woff'), url('#{$path}#{$file-name}.ttf') format('truetype'), url('#{$path}#{$file-name}.svg##{$font-family}') format('svg');
+        font-weight: $font-weight;
+        font-style: $font-style;
+    }
+}
+
+@mixin get-arrow($class, $bold: false) {
+    @if($bold) {
+        .arrrow-bold.#{$class} {
+            content: unicode(map-get($arrrows-map, $class));
+        }
+    }
+    @else {
+        .arrrow.#{$class} {
+            content: unicode(map-get($arrrows-map, $class));
+        }
+    }
+}
+
+@function unicode($str) {
+    @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"")
+}
+
