@@ -2,7 +2,14 @@
 
 A simple sass and css library for the arrrows fonts, http://www.arrrows.com/
 
-## Usage with sass
+## Usage
+Decorate your classes
+```
+<div class="arrrow thin-gt-arrow-right"></div>
+<div class="arrrow-bold thin-gt-arrow-left"></div>
+```
+
+## Implement with sass
  - **Download** the font bundle from http://www.arrrows.com/
  - Get the **scss files** from this library, https://github.com/EricHerlitz/arrrows-sass-and-css/archive/master.zip
  - Setup the **$local-font-path** parameter in the **arrrows.scss** file
@@ -29,15 +36,7 @@ A simple sass and css library for the arrrows fonts, http://www.arrrows.com/
 @include get-arrow(thin-gt-arrow-right, true);
 ```
 
-## Usage with css
+## Implement with css
  - **Download** the font bundle from http://www.arrrows.com/
  - Get the **css file** from this library, https://github.com/EricHerlitz/arrrows-sass-and-css/blob/master/arrrows.css
  - Setup the **path** parameter *(/Webfonts/ in the committed file)* in the **arrrows.scss** file
-
-## Usage
-Decorate your classes
-```
-<div class="arrrow thin-gt-arrow-right"></div>
-<div class="arrrow-bold thin-gt-arrow-left"></div>
-```
-
