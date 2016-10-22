@@ -14,14 +14,20 @@
 
 @mixin get-arrow($class, $bold: false) {
     @if($bold) {
-        .arrrow-bold.#{$class} {
+        .arrrow-bold.#{$class}:before {
             content: unicode(map-get($arrrows-map, $class));
         }
     }
     @else {
-        .arrrow.#{$class} {
+        .arrrow.#{$class}:before {
             content: unicode(map-get($arrrows-map, $class));
         }
+    }
+}
+
+@mixin get-arrrows($bold: false) {
+    @each $class, $unicode in $arrrows-map {
+        @include get-arrow($class, $bold);
     }
 }
 
